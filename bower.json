@@ -1,0 +1,22 @@
+{
+  "name": "LetteringsAnimados",
+  "version": "0.0.0",
+  "authors": [
+    "everardo sanchez <everardo.sanchez.adesis@gmail.com>"
+  ],
+  "description": "\"animation of own letterings\"",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "snap.svg": "~0.4.1"
+  }
+}
