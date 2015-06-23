@@ -4,17 +4,21 @@
   "description": "Leterings animations with javascript and Css",
   "author": "everitoSan",
   "dependencies": {
+    "bower": "^1.4.1",
     "express": "^4.12.4",
     "express-livereload": "0.0.24",
     "jade": "^1.11.0"
   },
   "engines": {
-      "node": "0.10.x",
-      "npm": "2.11.x",
-      "bower": "1.4.x" 
-    },
+    "node": "0.10.x",
+    "npm": "2.11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everitosan/AnimatedLetterings"
+  },
+  "license": "ISC",
   "scripts": {
-    "start": "nodemon server.js",
-    "postinstall": "./node_modules/bower/bin/bower install"
+     "postinstall": "./node_modules/bower/bin/bower install",
   }
 }
