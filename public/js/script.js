@@ -7,7 +7,7 @@
 
 	  s = Snap('1000','1000');
 
-	  Snap.load("/svg/NiLasMoscas.svg",loadSnapCallback);
+	  Snap.load("/svg/NilasMoscas.svg",loadSnapCallback);
 
   }
 
