@@ -15,6 +15,10 @@ app.get("/", function(req, res){
   res.render('index');
 });
 
+app.post("/", function(req, res){
+  res.render('index');
+});
+
 livereload(app, config={});
 config.watchDir = __dirname + "/public";
 
